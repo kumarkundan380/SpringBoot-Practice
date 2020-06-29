@@ -1,0 +1,2 @@
+my.db.driver = QA-MYSQL
+my.db.url = jdbc:qa

@@ -1,0 +1,5 @@
+package com.kundan.controller;
+
+public class HelloWorldBean extends String {
+
+}

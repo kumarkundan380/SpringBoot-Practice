@@ -1,0 +1,14 @@
+package com.kundan.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.kundan.model.Product;
+
+public interface ProductRepository extends JpaRepository<Product, Integer> {
+	
+	//SELECT * FROM PRODUCT WHERE prod_code=?
+	List<Product> findByProdCode(String prodCode);
+
+}

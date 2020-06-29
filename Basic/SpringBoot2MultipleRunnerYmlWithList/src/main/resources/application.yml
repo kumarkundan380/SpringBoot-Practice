@@ -1,0 +1,17 @@
+my:
+  app:
+    models:
+      -A
+      -B
+      -C
+    info:
+      -N1
+      -N2
+      -N3
+          
+    types:
+      -T1
+      -T2
+      -T3
+        
+      

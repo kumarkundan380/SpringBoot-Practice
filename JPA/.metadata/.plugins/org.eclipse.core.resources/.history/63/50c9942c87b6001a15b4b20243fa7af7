@@ -1,0 +1,20 @@
+package com.kundan.runner;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+
+import com.kundan.repository.ProductRepository;
+
+public class ShowResultRunner implements CommandLineRunner {
+
+	@Autowired
+	private ProductRepository productRepository;
+	
+	@Override
+	public void run(String... args) throws Exception {
+		productRepository.findAll().forEach(System.out::println);
+		
+
+	}
+
+}

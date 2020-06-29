@@ -1,0 +1,88 @@
+!SESSION 2020-06-27 07:45:57.979 -----------------------------------------------
+eclipse.buildId=4.5.1.202001211336-RELEASE
+java.version=11.0.7
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2020-06-27 07:47:05.454
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-06-27 07:47:05.454
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@700202fa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@141234df,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2020-06-27 07:54:54.692
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-27 07:59:34.678
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-27 07:59:34.679
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2a12389e[org.springframework.tooling.boot.ls:1.15.0.202001210741(id=624)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-27 07:59:34.689
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-27 07:59:34.820
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-27 07:59:36.172
+!MESSAGE Boot LS startup time from start to initialized: 1455ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-27 07:59:36.204
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HdDEZGulisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-27 07:59:36.232
+!MESSAGE subscribing to classpath changes: sts4.classpath.HdDEZGul isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-27 07:59:36.234
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-27 07:59:36.235
+!MESSAGE subsribers = {sts4.classpath.HdDEZGul=Send Classpath Notifications(295)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-27 07:59:36.235
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-27 07:59:36.236
+!MESSAGE project SpringBoot2JUnitTest ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-27 07:59:36.236
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-27 07:59:36.236
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HdDEZGul => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-27 07:59:36.236
+!MESSAGE Preparing classpath changed notification SpringBoot2JUnitTest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-27 07:59:36.236
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-27 07:59:36.240
+!MESSAGE classpath=52 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-27 07:59:36.240
+!MESSAGE buffering callback sts4.classpath.HdDEZGul SpringBoot2JUnitTest false 52
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-27 07:59:36.240
+!MESSAGE executing callback sts4.classpath.HdDEZGul 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-27 07:59:36.261
+!MESSAGE executing callback sts4.classpath.HdDEZGul SUCCESS [done]

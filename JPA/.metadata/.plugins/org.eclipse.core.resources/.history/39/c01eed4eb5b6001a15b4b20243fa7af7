@@ -1,0 +1,23 @@
+package com.kundan.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.kundan.model.Product;
+
+public interface ProductRepository extends JpaRepository<Product, Integer> {
+	
+	// Generated SQL: select * from product where prodCode = productCode
+	List<Product> findByProdCode(String prodCode);
+	
+	// Generated SQL: select * from product where prodVendor=prodVendor
+	List<Product> findByProdVender(String prodVendor);
+	
+	// Generated SQL: select * from product where prodCost=prodCost
+	List<Product> findByProdCost(Double prodCost);
+	
+	//SQL: select * from product where prod_cost>?
+	List<Product> findByProdCostGrearterThan(Double prodCost);
+
+}

@@ -1,0 +1,45 @@
+package com.kundan.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.kundan.model.Product;
+
+public interface ProductRepository extends JpaRepository<Product, Integer> {
+	
+	// Generated SQL: select * from product where prodCode = productCode
+	List<Product> findByProdCode(String prodCode);
+	
+	// Generated SQL: select * from product where prodVendor=prodVendor
+	List<Product> findByProdVender(String prodVendor);
+	
+	// Generated SQL: select * from product where prodCost=prodCost
+	List<Product> findByProdCost(Double prodCost);
+	
+	//SQL: select * from product where prod_cost>prodCost
+	List<Product> findByProdCostGreaterThan(Double prodCost);
+
+	//SQL: select * from product where prod_cost<prodCost
+	List<Product> findByProdCostLessThan(Double prodCost);
+	
+	//SQL: select * from product where prod_desc is null
+	List<Product> findByProdDescIsNull();
+	
+	//SQL: select * from product where prod_code like ?
+	List<Product> findByProdCodeLike(String prodCode);
+	
+	//SQL: select * from product where prod_code like %<input>%
+	List<Product> findByProdCodeContaining(String prodCode);
+	
+	//SQL: select * from product where prod_id > ? order by prod_code ASC
+	List<Product> findByProdIdGreaterThanOrderByProdCode(Integer prodId);
+	
+	//SQL: select * from product where prod_id > ? order by prod_code DESC
+	List<Product> findByProdIdGreaterThanOrderByProdCodeDesc(Integer prodId);
+	
+	//SQL: select * from product where prod_id != ?
+	List<Product> findByProdIdNot(Integer prodId);
+	
+
+}

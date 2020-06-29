@@ -1,0 +1,5 @@
+package com.kundan.config;
+
+public class AppConfig {
+
+}

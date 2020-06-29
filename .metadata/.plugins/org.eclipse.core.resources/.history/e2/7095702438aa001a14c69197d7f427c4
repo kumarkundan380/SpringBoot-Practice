@@ -1,0 +1,5 @@
+package com.kundan.service;
+
+public interface AlertService {
+
+}

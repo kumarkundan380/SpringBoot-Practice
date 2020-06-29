@@ -1,0 +1,16 @@
+package com.kundan.service.impl;
+
+import com.kundan.service.AlertService;
+
+public class SmsAlertService implements AlertService {
+
+	$Value("${provider.name}")
+	private String provider;
+	
+	@Override
+	public void send(String msg) {
+		System.out.println(provider+":FROM SMS SERVICE:"+msg);
+
+	}
+
+}

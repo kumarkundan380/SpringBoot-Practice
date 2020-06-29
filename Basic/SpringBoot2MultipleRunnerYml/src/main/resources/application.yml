@@ -1,0 +1,7 @@
+my:
+  app:
+    id: 123
+    code: NIT
+  test:
+    mode: ACTIVE
+    fmt: NONE

@@ -1,0 +1,13 @@
+package com.kundan.service.impl;
+
+import com.kundan.service.AlertService;
+
+public class SmsAlertService implements AlertService {
+
+	@Override
+	public void send(String msg) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

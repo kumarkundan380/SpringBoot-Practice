@@ -1,0 +1,21 @@
+package com.kundan;
+
+import org.junit.jupiter.api.Test;
+
+public class TestEmployee {
+
+	@Test
+	public void testSave() {
+		System.out.println("TEST-SAVE");
+	}
+	
+	@Test
+	public void testUpdate() {
+		System.out.println("TEST-UPDATE");
+	}
+	
+	@Test
+	public void testDelete() {
+		System.out.println("TEST-DELETE");
+	}
+}	

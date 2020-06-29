@@ -1,0 +1,10 @@
+app:
+  fmt:
+    grade:
+      id: 10
+    format:
+      sub: SAMPLE
+  desc:
+    note:
+      model: NONE
+    version: 1.0                  

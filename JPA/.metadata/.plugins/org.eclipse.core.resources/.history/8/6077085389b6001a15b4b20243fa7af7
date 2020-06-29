@@ -1,0 +1,42 @@
+package com.kundan.runner;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
+
+import com.kundan.model.Product;
+import com.kundan.repository.ProductRepository;
+
+//@Component
+public class TestProductRunner implements CommandLineRunner {
+	
+	@Autowired
+	private ProductRepository productRepository;
+
+	@Override
+	public void run(String... args) throws Exception {
+		productRepository.save(new Product(101,"PEN",520.0,"REN"));
+		productRepository.save(new Product(102,"CAR",500.30,"DEN"));
+		productRepository.save(new Product(103,"PAR",200.30,"CEN"));
+		productRepository.save(new Product(104,"REN",400.60,"SOP"));
+		productRepository.save(new Product(105,"PET",100.70,"PAL"));
+		productRepository.save(new Product(106,"ZET",600.80,"CAT"));
+		productRepository.save(new Product(107,"REN",5002.30,"REST"));
+		productRepository.save(new Product(108,"GET",2002.30,"FETCH"));
+		productRepository.save(new Product(109,"PUT",4003.60,"FETCH SINGLE"));
+		productRepository.save(new Product(110,"DELETE",1040.70,"REMOVE"));
+		productRepository.save(new Product(111,"POST",3007.40,"SAVE"));
+		productRepository.save(new Product(112,"COST",5002.30,"PRICE"));
+		productRepository.save(new Product(113,"PARK",2000.30,"RENT"));
+		productRepository.save(new Product(114,"REN",4200.60,"SAT"));
+		productRepository.save(new Product(115,"MON",1001.70,"JAN"));
+		productRepository.save(new Product(116,"TUE",3020.40,"FEB"));
+		productRepository.save(new Product(117,"WED",500.30,"MAR"));
+		productRepository.save(new Product(118,"THR",1200.30,"APL"));
+		productRepository.save(new Product(119,"FRI",450.80,"MAY"));
+		productRepository.save(new Product(120,"SAT",700.70,"JUN"));
+
+
+	}
+
+}

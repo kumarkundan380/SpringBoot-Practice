@@ -1,0 +1,11 @@
+
+my:
+  app:
+    data:
+      S1: ENG
+      S2: HIN
+      S2: SCI
+    grades:
+      e1: A
+      e2: B
+      e3: A+

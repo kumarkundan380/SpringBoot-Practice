@@ -1,0 +1,5 @@
+package com.kundan.model;
+
+public class User {
+
+}

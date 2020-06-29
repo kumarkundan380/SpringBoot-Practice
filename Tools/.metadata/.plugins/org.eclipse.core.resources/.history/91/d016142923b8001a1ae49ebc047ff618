@@ -1,0 +1,49 @@
+package com.kundan;
+
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+//@TestMethodOrder(Alphanumeric.class)
+public class TestEmployee {
+	
+	@BeforeAll
+	public static void setupOnce() {
+		System.out.println("ONE TIME SETUP");
+	}
+	
+	@BeforeEach
+	public void setup() {
+		System.out.println("SET UP");
+	}
+
+	@Test
+//	@Order(1)
+	public void testSave() {
+		System.out.println("TEST-SAVE");
+	}
+	
+	@Test
+//	@Order(2)
+	public void testUpdate() {
+		System.out.println("TEST-UPDATE");
+	}
+	
+	@Test
+//	@Order(3)
+	public void testDelete() {
+		System.out.println("TEST-DELETE");
+	}
+	
+	@AfterEach
+	public void clear() {
+		System.out.println("CLEAR DATA");
+	}
+	
+	@AfterAll
+	public static void cloaseAll() {
+		System.out.println("AT ONE TIME END");
+	}
+}	

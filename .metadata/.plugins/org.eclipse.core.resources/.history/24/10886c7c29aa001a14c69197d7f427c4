@@ -1,0 +1,2 @@
+my.db.driver = PROD-H2
+my.db.url = jdbc:prod

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestEmployee" project="SpringBoot2JUnitTest" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="com.kundan.TestEmployee" time="0.019" displayname="TestEmployee" uniqueid="[engine:junit-jupiter]/[class:com.kundan.TestEmployee]">
+    <testcase name="testSave" classname="com.kundan.TestEmployee" time="0.011" displayname="testSave()" uniqueid="[engine:junit-jupiter]/[class:com.kundan.TestEmployee]/[method:testSave()]"/>
+    <testcase name="testDelete" classname="com.kundan.TestEmployee" time="0.002" displayname="testDelete()" uniqueid="[engine:junit-jupiter]/[class:com.kundan.TestEmployee]/[method:testDelete()]"/>
+    <testcase name="testUpdate" classname="com.kundan.TestEmployee" time="0.006" displayname="testUpdate()" uniqueid="[engine:junit-jupiter]/[class:com.kundan.TestEmployee]/[method:testUpdate()]"/>
+  </testsuite>
+</testrun>

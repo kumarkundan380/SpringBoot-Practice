@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SpringBoot2JUnitTest" project="SpringBoot2JUnitTest" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="com.kundan.TestEmployee" time="0.864" displayname="TestEmployee" uniqueid="[engine:junit-jupiter]/[class:com.kundan.TestEmployee]">
+    <testcase name="testSave" classname="com.kundan.TestEmployee" time="0.001" displayname="testSave()" uniqueid="[engine:junit-jupiter]/[class:com.kundan.TestEmployee]/[method:testSave()]"/>
+    <testcase name="testDelete" classname="com.kundan.TestEmployee" time="0.0" displayname="testDelete()" uniqueid="[engine:junit-jupiter]/[class:com.kundan.TestEmployee]/[method:testDelete()]"/>
+    <testcase name="testUpdate" classname="com.kundan.TestEmployee" time="0.863" displayname="testUpdate()" uniqueid="[engine:junit-jupiter]/[class:com.kundan.TestEmployee]/[method:testUpdate()]"/>
+  </testsuite>
+  <testsuite name="com.kundan.SpringBoot2JUnitTestApplicationTests" time="0.192" displayname="SpringBoot2JUnitTestApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.kundan.SpringBoot2JUnitTestApplicationTests]">
+    <testcase name="contextLoads" classname="com.kundan.SpringBoot2JUnitTestApplicationTests" time="0.192" displayname="contextLoads()" uniqueid="[engine:junit-jupiter]/[class:com.kundan.SpringBoot2JUnitTestApplicationTests]/[method:contextLoads()]"/>
+  </testsuite>
+</testrun>
